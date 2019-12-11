@@ -1,3 +1,4 @@
 /.vscode
 /data
-/__pycache__
+/scripts/__pycache__
+/venv

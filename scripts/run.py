@@ -5,9 +5,9 @@ from os import makedirs
 from time import sleep
 from pathlib import Path
 
-doc_file = r"data\doc.txt"
-value_file = r"data\value.txt"
-cmd_file = r"data\cmd.txt"
+doc_file = r"..\data\doc.txt"
+value_file = r"..\data\value.txt"
+cmd_file = r"..\data\cmd.txt"
 pyautogui.PAUSE = 1
 
 def writeUsrIn():
@@ -129,8 +129,8 @@ def writesDatas(current_line, value, cmd):
 # ----------------------------------------------------------------
 
 def checkDataExist():
-    if os.path.exists(".\\data") == False:
-        makedirs(".\\data")
+    if os.path.exists("..\\data") == False:
+        makedirs("..\\data")
     if os.path.isfile(doc_file) == False:
         Path(doc_file).touch()
     if os.path.isfile(value_file) == False:
