@@ -1,0 +1,91 @@
+143 158
+252 229
+50
+115 656
+1
+501 193
+Cemilan 
+533 244
+cemilan
+673 473
+Did it work?
+857 623
+20
+907 341
+291 176
+10
+345 162
+Cemilan  
+1134 257
+bogor, indo, indonesia, jualan, kreatif, lidi, makanan, mie, ringan, saikho, saikhoindokreatif, snack, mie lidi, makanan ringan, indo, kreatif
+1150 395
+1142 437
+Type in location manualy
+1147 510
+1359 445
+5
+1139 661
+200 267
+Fill in the post
+1168 160
+5
+1082 159
+5
+79 493
+5
+1354 278
+1
+839 710
+5
+280 560
+1
+Kontak
+222 368
+<a href="https://https://www.saikhoindokreatif.com/"><span style="font-weight: bold;">WEBSITE</span></a>
+160 602
+3
+1107 167
+5
+70 470
+10
+504 601
+5
+380 379
+<a href="https://https://www.saikhoindokreatif.com/"><span style="font-weight: bold;">WEBSITE KAMI</span></a>
+409 227
+5
+79 506
+5
+548 303
+585 314
+SAIKHOINDOKREATIF adalah penyedia makanan ringan mie lidi di indonesia dengan harga yang murah dan berbagai macam rasa mie lidi
+574 442
+99 573
+5
+543 519
+1273 167
+5
+106 657
+5
+584 274
+849 332
+4
+586 629
+1253 175
+51 194
+5
+405 57
+copy
+430 19
+1
+325 19
+147 174
+110 685
+813 491
+paste
+5
+858 586
+5
+820 513
+102 17
+77 226
