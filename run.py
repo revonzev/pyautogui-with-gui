@@ -1,6 +1,9 @@
 import pyautogui
 import storagedata
+import os.path
+from os import makedirs
 from time import sleep
+from pathlib import Path
 
 doc_file = r"data\doc.txt"
 value_file = r"data\value.txt"
@@ -15,13 +18,13 @@ def writeUsrIn():
         
         if usr_in == "click":
             x, y = pyautogui.position()
-            pos = str(x) +' ' + str(y)
+            pos = str(x) +" " + str(y)
 
             writesDatas(current_line, pos, "click")
             current_line += 1
         elif usr_in == "moveto":
             x, y = pyautogui.position()
-            pos = str(x) +' ' + str(y)
+            pos = str(x) +" " + str(y)
 
             writesDatas(current_line, pos, "moveto")
             current_line += 1
@@ -92,10 +95,10 @@ def runData():
             pyautogui.confirm("Input manualy. {}".format(value))
             print(current_line, doc)
         elif cmd == "copy":
-            pyautogui.hotkey('ctrl', 'c')
+            pyautogui.hotkey("ctrl", "c")
             print(current_line, doc)
         elif cmd == "paste":
-            pyautogui.hotkey('ctrl', 'v')
+            pyautogui.hotkey("ctrl", "v")
             print(current_line, doc)
         else:
             print(current_line, "Unknown command. Skipping...")
@@ -125,9 +128,22 @@ def writesDatas(current_line, value, cmd):
 
 # ----------------------------------------------------------------
 
+def checkDataExist():
+    if os.path.exists(".\\data") == False:
+        makedirs(".\\data")
+    if os.path.isfile(doc_file) == False:
+        Path(doc_file).touch()
+    if os.path.isfile(value_file) == False:
+        Path(value_file).touch()
+    if os.path.isfile(cmd_file) == False:
+        Path(cmd_file).touch()
+
+# ----------------------------------------------------------------
+
 if __name__ == "__main__":
+    checkDataExist()
     option = input("record or run? ")
-    if option == 'record':
+    if option == "record":
         writeUsrIn()
     else:
         runData()
