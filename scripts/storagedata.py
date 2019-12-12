@@ -1,5 +1,8 @@
 def readData(file, line=None, option=None):
-    """Read the data from a file and return the content"""
+    """Read the data from a file and return the content
+    line=INT the line number to read
+    option="len" gives out line amount
+    """
 
     data_file = open(file, "r")
     readed_file = data_file.readlines()
@@ -15,7 +18,10 @@ def readData(file, line=None, option=None):
     return 0
 
 def overwriteData(file, line, data):
-    """Overwrite data to a file"""
+    """Overwrite data to a file
+    overwrite file,
+    line to overwrite,
+    data to overwrite"""
 
     old_data = readData(file)
     data += "\n"
