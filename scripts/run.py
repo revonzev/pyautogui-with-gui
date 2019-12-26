@@ -263,13 +263,12 @@ class Ui_RecordWindow(object):
         self.docText.document().setPlainText("")
         self.valueText.document().setPlainText("")
 
-
 class RecordApp(QtWidgets.QMainWindow, Ui_RecordWindow):
     def __init__(self, parent=None):
         super(RecordApp, self).__init__(parent)
         self.setupUi(self)
 
-def load_ui():
+def loadRecordUI():
     app = QtWidgets.QApplication(sys.argv)
     form = RecordApp()
     form.show()
@@ -283,7 +282,7 @@ if __name__ == "__main__":
     option = input("record or run? ")
 
     if option == "record":
-        load_ui()
+        loadRecordUI()
         #writeUsrIn()
     else:
         runData()
