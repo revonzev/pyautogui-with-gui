@@ -2,7 +2,7 @@
 
 Python pyautogui for automation without all of the clutter of manualy programming in the codes.
 
-![](https://www.python.org/static/community_logos/python-powered-w-200x80.png)
+![Python powered image](https://www.python.org/static/community_logos/python-powered-w-200x80.png)
 
 When you run the scripts/run.py a console will pop-up, It will ask you "record or run? "
 - Run
@@ -19,9 +19,9 @@ When you run the scripts/run.py a console will pop-up, It will ask you "record o
     This is the value for the action. for example action "type" the value is "hello world"
 - Record
 
-  GUI Example:
+  GUI example:
 
-  ![](img/record-gui.jpg)
+  ![GUI example image](./img/record-gui.jpg)
 
   This gui have 8 action
 
