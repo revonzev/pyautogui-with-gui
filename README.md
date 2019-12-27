@@ -21,7 +21,7 @@ When you run the scripts/run.py a console will pop-up, It will ask you "record o
 
   GUI example:
 
-  ![GUI example image](./img/record-gui.jpg)
+  ![GUI example image](./img/record-gui.JPG)
 
   This gui have 8 action
 
